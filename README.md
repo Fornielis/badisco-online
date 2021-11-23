@@ -8,7 +8,7 @@ Apesar de ser um projeto simples, técnicas de responsividade estão presentes s
 </p>
 
 <h1 align="center">
-  <img width="80%" src="https://ik.imagekit.io/fornielis/GITHUB/fornikas_games_6HPWCXfGN.gif?updatedAt=1637012380805"/>
+  <img width="80%" src="https://ik.imagekit.io/fornielis/GITHUB/badisco_Ic3ysC57w.gif?updatedAt=1637707269728"/>
 </h1>
 
 ## Tecnologias
