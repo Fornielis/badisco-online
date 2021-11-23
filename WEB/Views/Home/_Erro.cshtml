@@ -1,0 +1,16 @@
+﻿@* BOX ERRO *@
+<section id="conteudo" class="animated zoomInDown cor-degrade-preto">
+    <p>
+        Ops,<br />
+        Algum erro inesperado está acontecendo, desculpe. Por favor, tente mais tarde.<br />
+        Forte Abraço!
+    </p>
+    }
+    @* BTN SAIR *@
+    <input type="button" value="OK" class="btn" id="btn-ok" />
+</section>
+@* FUNÇÕES QUE SERÃO EXECUTADAS *@
+<script type="text/javascript">
+    $("#box-resposta").css("display", "block");
+    $('#btn-ok').on('click', FechaResposta);
+</script>

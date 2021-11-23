@@ -1,0 +1,32 @@
+﻿@* MODELO *@
+@model DTO.HomeContato
+@* BOX CONTEUDO *@
+<section id="conteudo" class="animated zoomInDown cor-degrade-preto">
+    <form action="~/Home/PostMensagem" data-ajax="true" data-ajax-loading="#progress" data-ajax-mode="replace" data-ajax-update="#box-resposta" id="form" method="post" class="col-sm-4 col-xs-12 cor-degrade-preto animated zoomInDown">
+        @Html.ValidationSummary(true)
+        @* NOME *@
+        <label>Nome</label>
+        <input data-val="true" data-val-required="OBRIGATÓRIO" type="text" name="Nome" id="Nome" value="" />
+        <span class="field-validation-valid" data-valmsg-for="Nome" data-valmsg-replace="true"> </span>
+        @* E-MAIL *@
+        <label>E-mail</label>
+        <input data-val="true" data-val-required="OBRIGATÓRIO" type="Email" name="Email" id="Email" value="" />
+        <span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"> </span>
+        @* MENSAGEM *@
+        <label>Mensagem</label>
+        <textarea data-val="true" data-val-required="OBRIGATÓRIO" name="Mensagem" id="Mensagem"></textarea>
+        <span class="field-validation-valid" data-valmsg-for="Mensagem" data-valmsg-replace="true"> </span>
+        @* BTN SAIR *@
+        <input type="button" value="Cancelar" class="btn btn-mensagem btn-cancelar" style="text-align: center; width: 35%; float: left" />
+        @* SUBMIT *@
+        <input type="submit" name="submit" value="Enviar" class="btn btn-mensagem" style="text-align: center; width: 55%; float: right" />
+    </form>
+</section>
+@* FUNÇÕES QUE SERÃO EXECUTADAS *@
+<script type="text/javascript">
+    $("#box-resposta").css("display", "block");
+    $('.btn-cancelar').on('click', FechaResposta);
+    // VALIDAÇÃO
+    jQuery.validator.unobtrusive.parse();
+    jQuery.validator.unobtrusive.parse("#form");
+</script>

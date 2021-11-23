@@ -1,0 +1,28 @@
+﻿@* MODELO *@
+@model DTO.CodigoCorEntrada
+@* TITULO *@
+<h1 class="col-sm-12 col-xs-12">Código Cores Cabos Metálico</h1>
+@* FORMULÁRIO *@
+<div class="container">
+    <div class="row">
+        <form action="~/Metalico/PostCores" data-ajax="true" data-ajax-loading="#progress" data-ajax-mode="replace" data-ajax-update="#box-conteudo" id="form" enctype="multipart/form-data" method="post" class="col-sm-4 col-xs-12">
+            @Html.ValidationSummary(true)
+            @* PAR INICIO *@
+            <label>Informe primeiro <b>PAR</b> do cabo</label>
+            <input data-val="true" data-val-range="PARES de 1 à 3.0000" data-val-range-max="3000" data-val-range-min="1" data-val-required="OBRIGATÓRIO" type="number" name="ParInicial" id="ParInicial" value="@ViewBag.ParInicio" />
+            <span class="field-validation-valid" data-valmsg-for="ParInicial" data-valmsg-replace="true"></span>
+            @* PAR DESEJADO *@
+            <label>Informe o <b>PAR</b> a ser pesquisado</label>
+            <input data-val="true" data-val-range="PARES de 1 à 3.0000" data-val-range-max="3000" data-val-range-min="1" data-val-required="OBRIGATÓRIO" type="number" name="ParDesejado" id="ParDesejado" value="@ViewBag.ParDesejado" />
+            <span class="field-validation-valid" data-valmsg-for="ParDesejado" data-valmsg-replace="true">@ViewBag.Posicaonegativa</span>
+            @* SUBMIT *@
+            <input type="submit" name="submit" value="Pesquisar" class="btn btn-pesquisar" />
+        </form>
+        @* IMAGEM *@
+        <div class="col-sm-8 box-imagem">
+            <img src="~/Imagens/Badisco-Online-Cabos.png" alt="IMG" />
+        </div>
+    </div>
+</div>
+
+

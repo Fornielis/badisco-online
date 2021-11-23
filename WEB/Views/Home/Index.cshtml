@@ -1,0 +1,54 @@
+﻿@{
+    Layout = "~/Views/LayoutPadrao/_LayoutHome.cshtml";
+}
+@* ESTILOS CSS *@
+@Styles.Render("~/Content/Index")
+@* INTERFACE *@
+<section id="interface" class="cor-degrade-preto-2">
+    @* BANNER *@
+    <div id="banner">
+        <h1 class="animated flipInY"><span>o site da comunidade</span><br />TELECOM</h1>
+        <div class="mascote">
+            <img src="~/Imagens/Badisco-Online-Mascote.png" alt="MASCOTE" class="animated bounceInDown" />
+        </div>
+    </div>
+    @* SETA ANIMADA *@
+    <div class="box-seta animated infinite bounce">
+        <p>&#9660;</p>
+    </div>
+    @* PAINEL QUEM SOMOS *@
+    <div id="somos">
+        <div class="container">
+            <div class="row">
+                <h1 class="col-sm-12 col-xs-12">Um pouco sobre <b>badisco<span class="animated infinite bounceIn" style="color: #009fe3;">.</span>online</b></h1>
+            </div>
+            <div class="row">
+                @* TEXTO *@
+                <div class="col-sm-6 col-xs-12">
+                    <p>
+                        <b>badisco<span class="animated infinite bounceIn">.</span>online</b> é uma plataforma criada por profissionais da área de Telecom para comunidade de Telecom. Nossa missão é prestar serviços digitais gratuitos que facilitem o dia a dia de todos profissionais de Telecom espalhados pelo Brasil. <br />
+                        Mas não é só prestar serviços online, o que queremos de verdade é ter a participação de toda comunidade de Telecom, quem tiver uma ideia de serviço que possa ajudar tem total liberdade de  entrar em contato conosco para discutirmos a ideia e implantarmos, assim construiremos  juntos uma plataforma útil que possa beneficiar a vida de toda comunidade.<br />
+                        <b>badisco<span class="animated infinite bounceIn">.</span>online</b> nasce Digital com o DNA Telecom e está online para toda comunidade.
+                    </p>
+                </div>
+                @* IMAGEM CARRO - BOTÃO CONTATO *@
+                <div class="col-sm-6 col-xs-12">
+                    <img src="~/Imagens/Badisco-Online-Carro.png" alt="Alternate Text" />
+                    <p>
+                        Você tem uma ideia que gostaria de ver aqui na plataforma? Sugestão? Reclamação? <br />
+                        Queremos muito saber o que você pensa, saber suas ideias e até mesmo suas reclamações. Entre em contato conosco clicando no botão abaixo.
+                    </p>
+                </div>
+                @* BOTÃO FORMULÁRIO *@
+                <div class="col-sm-6 col-xs-12" >
+                    <a data-ajax="true" data-ajax-loading="#progress" data-ajax-mode="replace" data-ajax-update="#box-resposta" href="~/Home/Mensagem">
+                        <div class="btn btn-abrir"><span class="animated infinite bounceInLeft">&#10687;</span> Entrar em Contato</div>
+                    </a>
+                </div>              
+            </div>
+        </div>
+    </div>
+</section>
+@* SCRIPTS JS *@
+@Scripts.Render("~/bundles/Index")
+

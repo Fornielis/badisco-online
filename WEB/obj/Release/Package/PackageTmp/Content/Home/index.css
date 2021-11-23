@@ -1,0 +1,181 @@
+﻿/* Responsividade:
+   
+    - Grid Bootstrap:
+        col-xs | até 480px
+        col-sm | maior igual 768px
+        col-md | maior igual 998px
+        col-lg | maior igual 1200px
+-------------------------------------------------- */
+#interface {
+    width: 100%;
+    min-height: calc(100vh - 45px);
+}
+
+/* BANNER
+-------------------------------------------------- */
+#banner {
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+    padding-top: 193px;
+    overflow: hidden;
+    background: #02388e;
+    background: -moz-linear-gradient(top, #02388e 0%, #47baeb 100%);
+    background: -webkit-linear-gradient(top, #02388e 0%,#47baeb 100%);
+    background: linear-gradient(to bottom, #02388e 0%,#47baeb 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#02388e', endColorstr='#47baeb',GradientType=0 );
+    background-image: url('../../Imagens/MATRIX.gif');
+}
+
+.mascote {
+    width: 198px;
+    height: 193px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -135px 0px 0px -99px;
+    z-index: 10;
+}
+
+#banner h1 {
+    font-family: 'Fredoka One', cursive;
+    color: #ffffff;
+    font-size: 300%;
+    line-height: 75%;
+    text-shadow: 1px 1px 4px #000000;
+    z-index: 10;
+}
+
+    #banner h1 span {
+        font-size: 80%;
+        z-index: 10;
+    }
+
+.fundo {
+    width: 100%;
+    height: 320px;
+    float: left;
+    margin: -310px 0px 0px 0px;
+}
+
+/* BOX-SETA
+-------------------------------------------------- */
+.box-seta {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: block;
+}
+
+    .box-seta p {
+        font-size: 200%;
+        color: #808080;
+    }
+
+/* SOMOS
+-------------------------------------------------- */
+#somos {
+    width: 100%;
+    text-align: center;
+    margin-top: -25px;
+}
+
+    #somos h1 {
+        color: #ffffff;
+        font-size: 210%;
+        line-height: 130%;
+        text-shadow: 2px 2px 3px #000000;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    #somos P {
+        color: #ffffff;
+        font-size: 120%;
+        line-height: 200%;
+        text-align: left;
+        padding: 10px 20px 10px 20px;
+        border-left: solid 2px #009fe3;
+        margin-bottom: 10px;
+    }
+
+        #somos P span {
+            font-weight: bold;
+            color: #009fe3;
+            font-size: 200%;
+        }
+
+    #somos img {
+        width: 350px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+#box-contato {
+    height: auto;
+    background-color: rgba(0,0,0,.2);
+    padding: 20px;
+    border-radius: 10px;
+    border-top: solid 2px #009fe3;
+    border-bottom: solid 2px #009fe3;
+    margin-bottom: 20px;
+}
+
+.btn-entre-contato {
+    width: 70%;
+    height: 60px;
+    background-color: #2bb200;
+    background-image: url('../../Imagens/ICONE-WATTS.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    overflow: hidden;
+    transition: all .4s;
+    border-radius: 10px;
+    border-top-left-radius: 30px;
+    box-shadow: 2px 2px 4px #000000;
+    margin-bottom: 5px;
+}
+
+    .btn-entre-contato:hover {
+        background-color: #239100;
+    }
+
+    .btn-entre-contato h5 {
+        color: #ffffff;
+        font-size: 150%;
+        margin: 12px 0px 0px 60px;
+    }
+
+        .btn-entre-contato h5 span {
+            margin-left: 0px;
+        }
+
+
+@media(min-width: 0px) and (max-width: 767px) {
+    #somos h1 {
+        font-size: 170%;
+    }
+
+    #somos P {
+        padding: 0px 20px 0px 20px;
+    }
+
+    #somos img {
+        width: 300px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    #box-contato {
+        width: 90%;
+        margin-left: 5%;
+        border-top: none;
+    }
+
+
+    .btn-entre-contato {
+        width: 90%;
+    }
+}

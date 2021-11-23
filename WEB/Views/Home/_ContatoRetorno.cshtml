@@ -1,0 +1,29 @@
+﻿@* BOX CONTEUDO *@
+<section id="conteudo" class="animated zoomInDown cor-degrade-preto">
+    @{// MENSAGEM RETORNO
+        if (ViewBag.Retorno == true)
+        {
+            <p>
+                Olá @ViewBag.Nome, obrigado pelo contato.<br />
+                Recebemos sua mensagem! Vamos analisar, em breve entraremos em contato.<br />
+                Forte Abraço!
+            </p>
+        }
+        else
+        {
+            <p>
+                Olá @ViewBag.Nome, obrigado pelo contato.<br />
+                Nosso sistema não está conseguindo enviar sua mensagem pelo site, desculpe. Por favor envie um e-mail para:<br />
+                <span>contato@badisco.online</span> <br />
+                Forte Abraço!
+            </p>
+        }
+    }
+    @* BTN SAIR *@
+    <input type="button" value="OK" class="btn" id="btn-ok" />
+</section>
+@* FUNÇÕES QUE SERÃO EXECUTADAS *@
+<script type="text/javascript">
+    $("#box-resposta").css("display", "block");
+    $('#btn-ok').on('click', FechaResposta);
+</script>

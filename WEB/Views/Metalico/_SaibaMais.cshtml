@@ -1,0 +1,23 @@
+﻿@* BOX CONTEUDO *@
+<section id="conteudo-saiba-mais" class="animated zoomInDown cor-degrade-preto">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-lg-offset-4 col-xs-12">
+                @* IMAGEM *@
+                <img src="~/Imagens/Badisco-Online-Cabos.png" alt="Alternate Text" />
+                @* DESCRIÇÃO *@
+                <p>
+                    Código Cores para Cabos Metálicos permite por meio de uma pesquisa simples obter o código de cor do par, grupo e super-grupo desejado,
+                    basta informar qual o primeiro par do cabo e depois o par que você precisa saber a cor.
+                </p>
+                @* BTN SAIR *@
+                <input type="button" value="OK" class="btn" id="btn-ok-saibaMais" />
+            </div>
+        </div>
+    </div>
+</section>
+@* FUNÇÕES QUE SERÃO EXECUTADAS *@
+<script type="text/javascript">
+    $("#box-retorno").css("display", "block");
+    $('#btn-ok-saibaMais').on('click', FechaSaibaMais);
+</script>

@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    @* TITULO *@
+    <title>badisco.online</title>
+    @* META - PÁGINA *@
+    <meta charset="UTF-8">
+    <meta name=viewport content="width=device-width, initial-scale=1" />
+    <meta name="description" content="código cores cabos metálicos" />
+    <meta name="keywords" content="código cores cabos metálicos" />
+    @* GOOGLE WEBMASTERS *@
+    <meta name="google-site-verification" content="4pvD-0unbLZfJMO9XFdivBT5du6qub36284VaTxFqSs" />
+    @* LINKS *@
+    <link href="~/Imagens/Badisco-Online.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+    @* GOOGLE ADCENCE *@
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-5168986806799330",
+            enable_page_level_ads: true
+        });
+    </script>
+    @* GOOGLE ANALITICS *@
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120978524-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-120978524-1');
+    </script>
+</head>
+<body>
+    @* MENU *@
+    <div class="navbar navbar-inverse navbar-fixed-top cor-degrade-preto">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="~/Home/Index">
+                    <img src="~/Imagens/Badisco-Online-Logo.png" alt="LOGO" />
+                </a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="~/Metalico/Cores"><span class="animated infinite bounceInLeft">&#10687;</span> CORES METÁLICO</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    @* BODY *@
+    @RenderBody()
+    @* RODAPÉ *@
+    @Html.Partial("~/Views/LayoutPadrao/_Rodape.cshtml")
+    @* PROGRESS *@
+    <div id="progress">
+        <div><img src="~/Imagens/LoaderAzul.gif" alt="IMG CARREGAMENTO" /></div>
+    </div>
+    @* PAINEL - RESPOSTA *@
+    <div id="box-resposta"></div>
+</body>
+</html>

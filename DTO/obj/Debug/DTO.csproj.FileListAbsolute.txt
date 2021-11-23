@@ -1,0 +1,15 @@
+D:\_WILSON\_PROJETOS\_C#\BadiscoOnline\SistemaBadiscoOnline\DTO\bin\Debug\DTO.dll
+D:\_WILSON\_PROJETOS\_C#\BadiscoOnline\SistemaBadiscoOnline\DTO\bin\Debug\DTO.pdb
+D:\_WILSON\_PROJETOS\_C#\BadiscoOnline\SistemaBadiscoOnline\DTO\obj\Debug\DTO.dll
+D:\_WILSON\_PROJETOS\_C#\BadiscoOnline\SistemaBadiscoOnline\DTO\obj\Debug\DTO.pdb
+D:\_WILSON\_PROJETOS\_C#\BadiscoOnline\SistemaBadiscoOnline\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+D:\_DEVELOPER\Aplicacoes\BadiscoOnline\SistemaBadiscoOnline\DTO\bin\Debug\DTO.dll
+D:\_DEVELOPER\Aplicacoes\BadiscoOnline\SistemaBadiscoOnline\DTO\bin\Debug\DTO.pdb
+D:\_DEVELOPER\Aplicacoes\BadiscoOnline\SistemaBadiscoOnline\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+D:\_DEVELOPER\Aplicacoes\BadiscoOnline\SistemaBadiscoOnline\DTO\obj\Debug\DTO.dll
+D:\_DEVELOPER\Aplicacoes\BadiscoOnline\SistemaBadiscoOnline\DTO\obj\Debug\DTO.pdb
+C:\Users\Fornielis\Desktop\JOBS\_DEVELOPER\BadiscoOnline\SistemaBadiscoOnline\DTO\bin\Debug\DTO.dll
+C:\Users\Fornielis\Desktop\JOBS\_DEVELOPER\BadiscoOnline\SistemaBadiscoOnline\DTO\bin\Debug\DTO.pdb
+C:\Users\Fornielis\Desktop\JOBS\_DEVELOPER\BadiscoOnline\SistemaBadiscoOnline\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Fornielis\Desktop\JOBS\_DEVELOPER\BadiscoOnline\SistemaBadiscoOnline\DTO\obj\Debug\DTO.dll
+C:\Users\Fornielis\Desktop\JOBS\_DEVELOPER\BadiscoOnline\SistemaBadiscoOnline\DTO\obj\Debug\DTO.pdb

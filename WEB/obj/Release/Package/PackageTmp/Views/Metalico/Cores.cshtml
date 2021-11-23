@@ -1,0 +1,17 @@
+﻿@{
+    Layout = "~/Views/LayoutPadrao/_LayoutHome.cshtml";
+}
+@* ESTILOS CSS *@
+@Styles.Render("~/Content/Metalico")
+@* INTERFACE *@
+<section id="interface-metalico-cores" class="animated flipInX">
+    @* BOX-CONTEÚDO *@
+    <div id="box-conteudo">
+        @* PARTIAL - INICIO *@
+        @Html.Partial("~/Views/Metalico/_Inicio.cshtml")
+    </div>
+</section>
+@* SCRIPTS JS *@
+@Scripts.Render("~/bundles/Metalico")
+
+

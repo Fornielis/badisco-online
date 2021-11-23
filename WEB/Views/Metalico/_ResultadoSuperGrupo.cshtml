@@ -1,0 +1,83 @@
+﻿@* MODELO *@
+@model DTO.CodigoCorParSuperGrupo
+<section class="animated flipInX">
+    @* TITULO *@
+    <h1 class="col-sm-12 col-xs-12">Código Cores | PAR @ViewBag.ParDesjado</h1>
+    @* FORMULÁRIO *@
+    <div class="container">
+        <div class="row">
+            @* CORES *@
+            <div class="col-sm-4 col-xs-12">
+                @* CPRES PAR *@
+                <div class="box-cores cor-degrade-preto">
+                    <h3>PAR<span class="animated infinite bounceInLeft">.</span></h3>
+                    @* COR = A *@
+                    <section class="resultado-cores">
+                        <div>
+                            <div class="circulo" style="background-color: @Model.ParCor_Ahd"></div>
+                            <p>@Model.ParCor_A</p>
+                        </div>
+                    </section>
+                    @* COR = B *@
+                    <section class="resultado-cores">
+                        <div>
+                            <div class="circulo" style="background-color: @Model.ParCor_Bhd"></div>
+                            <p>@Model.ParCor_B</p>
+                        </div>
+                    </section>
+                </div>
+                @* CPRES GRUPO *@
+                <div class="box-cores cor-degrade-preto">
+                    <h3>GRUPO<span class="animated infinite bounceInLeft">.</span></h3>
+                    @* COR = A *@
+                    <section class="resultado-cores">
+                        <div>
+                            <div class="circulo" style="background-color: @Model.SubCor_Ahd"></div>
+                            <p>@Model.SubCor_A</p>
+                        </div>
+                    </section>
+                    @* COR = B *@
+                    <section class="resultado-cores">
+                        <div>
+                            <div class="circulo" style="background-color: @Model.SubCor_Bhd"></div>
+                            <p>@Model.SubCor_B</p>
+                        </div>
+                    </section>
+                </div>
+                @* CPRES SUPER-GRUPO *@
+                <div class="box-cores cor-degrade-preto">
+                    <h3>SUPER-GRUPO<span class="animated infinite bounceInLeft">.</span></h3>
+                    @* COR = A *@
+                    <section class="resultado-cores">
+                        <div>
+                            <div class="circulo" style="background-color: @Model.SuperCor_Ahd"></div>
+                            <p>@Model.SuperCor_A</p>
+                        </div>
+                    </section>
+                    @* COR = B *@
+                    <section class="resultado-cores">
+                        <div>
+                            <div class="circulo" style="background-color: @Model.SuperCor_Bhd"></div>
+                            <p>@Model.SuperCor_B</p>
+                        </div>
+                    </section>
+                </div>
+                @* BTN - NOVA PESQUISA *@
+                <a data-ajax="true" data-ajax-loading="#progress" data-ajax-mode="replace" data-ajax-update="#box-conteudo" href="~/Metalico/CoresInicio">
+                    <div class="btn-novoPar">
+                        <p><span class="animated infinite bounceInLeft">&#10687;</span> NOVO PAR</p>
+                    </div>
+                </a>
+            </div>
+            @* BOX-IMAGEM *@
+            <div class="col-sm-8 box-imagem">
+                <div class="cores">
+                    <section class="A" style="background-color: @Model.ParCor_Ahd"></section>
+                    <section class="B" style="background-color: @Model.ParCor_Bhd"></section>
+                </div>
+                <div class="cores-img"></div>
+            </div>
+        </div>
+    </div>
+</section>
+

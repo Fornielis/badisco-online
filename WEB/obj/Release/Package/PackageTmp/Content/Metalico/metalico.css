@@ -1,0 +1,182 @@
+﻿/* Responsividade:
+   
+    - Grid Bootstrap:
+        col-xs | até 480px
+        col-sm | maior igual 768px
+        col-md | maior igual 998px
+        col-lg | maior igual 1200px
+-------------------------------------------------- */
+#interface-metalico-cores {
+    width: 100%;
+    min-height: calc(100vh - 45px);
+    padding-top: 60px;
+}
+
+/* BOX-CONTEÚDO
+-------------------------------------------------- */
+#box-conteudo {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+    #box-conteudo h1 {
+        width: 80%;
+        margin-left: 10%;
+        color: #ffffff;
+        padding-bottom: 5px;
+        font-size: 180%;
+        line-height: 130%;
+        text-shadow: 2px 2px 3px #000000;
+        font-weight: bold;
+        margin-bottom: 20px;
+        border-bottom: solid 1px #0094ff;
+    }
+
+    #box-conteudo form {
+        height: auto;
+    }
+
+        #box-conteudo form label {
+            color: #ffffff;
+            float: left;
+        }
+
+        #box-conteudo form span {
+            color: #ffffff;
+            display: block;
+            color: red;
+            text-align: right;
+            margin: 5px 5px 0px 0px;
+            margin-bottom: 15px;
+        }
+
+        #box-conteudo form label b {
+            color: #0094ff;
+            font-size: 120%;
+            margin-top: 0px;
+        }
+
+        #box-conteudo form input {
+            width: 100%;
+            height: 45px;
+            border-radius: 10px;
+            text-align: center;
+            border-right: solid 2px #0094ff;
+            border-left: solid 2px #0094ff;
+        }
+
+.box-cores {
+    width: 90%;
+    height: 140px;
+    margin: 0 auto;
+    border-left: 1px solid #0094ff;
+    border-right: 1px solid #0094ff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+    .box-cores h3 {
+        color: #ffffff;
+        padding-top: 10px;
+    }
+
+        .box-cores h3 span {
+            color: #0094ff;
+        }
+
+.resultado-cores {
+    width: 50%;
+    height: auto;
+    float: left;
+    text-align: center;
+}
+
+    .resultado-cores p {
+        color: #ffffff;
+    }
+
+    .resultado-cores .circulo {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        border: solid 3px #cccccc;
+        margin: 5px auto;
+        box-shadow: 1px 1px 4px #000000;
+    }
+
+.btn-novoPar {
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 10px;
+    border-bottom: solid 1px #0094ff;
+    cursor: pointer;
+    background-color: #000000;
+}
+
+    .btn-novoPar p {
+        color: #ffffff;
+        text-decoration: none;
+        padding: 15px 0px 6px 0px;
+    }
+
+    .btn-novoPar:hover {
+        background-color:#0094ff;
+    }
+
+.box-imagem {
+    position: relative;
+}
+
+.cores {
+    width: 100%;
+    height: 260px;
+}
+
+    .cores section {
+        width: 100%;
+        height: 130px;
+    }
+
+.cores-img {
+    width: 100%;
+    height: 260px;
+    background-image: url('../../Imagens/Badisco-Online-CabosResultado.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+}
+
+.btn-pesquisar {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+    .btn-pesquisar:hover {
+        background-color: #0094ff;
+        color: #ffffff;
+    }
+
+/* BOX-CONTEÚDO - MIDIA QUERY
+-------------------------------------------------- */
+@media(min-width: 0px) and (max-width: 767px) {
+    #box-conteudo h1 {
+        font-size: 135%;
+        margin-bottom: 0px;
+    }
+
+    #box-conteudo form {
+        padding: 0px 30px 0px 30px;
+    }
+
+    .box-imagem {
+        display: none;
+    }
+
+    #form {
+        margin-top: 20px;
+    }
+}

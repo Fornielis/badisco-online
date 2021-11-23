@@ -1,0 +1,28 @@
+﻿@{
+    Layout = "~/Views/LayoutPadrao/_LayoutHome.cshtml";
+}
+@* ESTILOS CSS *@
+@Styles.Render("~/Content/Metalico")
+@* INTERFACE *@
+<section id="interface-metalico-cores">
+    @* BOX-CONTEÚDO *@
+    <div id="box-conteudo">
+        @* PARTIAL - INICIO *@
+        @Html.Partial("~/Views/Metalico/_Inicio.cshtml")
+    </div>
+    @* SOBRE A FERRAMENTA *@
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-xs-12" style="text-align: center; padding-top: 15px;">
+                @* LINK - SAIBA MAIS *@
+                <a data-ajax="true" data-ajax-loading="#progress" data-ajax-mode="replace" data-ajax-update="#box-retorno" href="~/Metalico/SaibaMais"><span class="animated infinite fadeIn">&#10010;</span> Sobre a Ferramenta</a>
+            </div>
+        </div>
+    </div>
+</section>
+@* RETORNO SAIBA MAIS *@
+<div id="box-retorno"></div>
+@* SCRIPTS JS *@
+@Scripts.Render("~/bundles/Metalico")
+
+

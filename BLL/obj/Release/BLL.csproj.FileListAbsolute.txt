@@ -1,0 +1,11 @@
+D:\_WILSON\_PROJETOS\_C#\BadiscoOnline\SistemaBadiscoOnline\BLL\bin\Release\BLL.dll
+D:\_WILSON\_PROJETOS\_C#\BadiscoOnline\SistemaBadiscoOnline\BLL\bin\Release\BLL.pdb
+D:\_WILSON\_PROJETOS\_C#\BadiscoOnline\SistemaBadiscoOnline\BLL\bin\Release\DAL.dll
+D:\_WILSON\_PROJETOS\_C#\BadiscoOnline\SistemaBadiscoOnline\BLL\bin\Release\DTO.dll
+D:\_WILSON\_PROJETOS\_C#\BadiscoOnline\SistemaBadiscoOnline\BLL\bin\Release\MySql.Data.dll
+D:\_WILSON\_PROJETOS\_C#\BadiscoOnline\SistemaBadiscoOnline\BLL\bin\Release\DAL.pdb
+D:\_WILSON\_PROJETOS\_C#\BadiscoOnline\SistemaBadiscoOnline\BLL\bin\Release\DTO.pdb
+D:\_WILSON\_PROJETOS\_C#\BadiscoOnline\SistemaBadiscoOnline\BLL\bin\Release\MySql.Data.xml
+D:\_WILSON\_PROJETOS\_C#\BadiscoOnline\SistemaBadiscoOnline\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+D:\_WILSON\_PROJETOS\_C#\BadiscoOnline\SistemaBadiscoOnline\BLL\obj\Release\BLL.dll
+D:\_WILSON\_PROJETOS\_C#\BadiscoOnline\SistemaBadiscoOnline\BLL\obj\Release\BLL.pdb
